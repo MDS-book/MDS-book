@@ -1,5 +1,5 @@
-# MDS-book-supplementary
-Supplementary material (such as Python scripts or figures) for the MDS book.
+# MDS-book
+This is the main repository for supplementary material (such as Python scripts or figures) for the MDS book.
 
 
 <!-- 
