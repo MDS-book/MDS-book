@@ -1,6 +1,9 @@
 # MDS-book
 This is the main repository for supplementary material (such as Python scripts or figures) for the MDS book.
 
+Content:
+- The directory `code` contains jupyter notebooks and Python scripts with all code snippets and scripts from the book -- sometimes with a few additional examples.
+
 
 <!-- 
 ## Contributions
