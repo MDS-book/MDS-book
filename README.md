@@ -2,7 +2,7 @@
 This is the main repository for supplementary material (such as Python scripts or figures) for the MDS book.
 
 Content:
-- The folder `code` contains jupyter notebooks and Python scripts with all code snippets from the book -- sometimes with a few additional examples.
+- The folder `code` contains jupyter notebooks with all code snippets from the book -- sometimes with a few additional examples.
 
 - The folder `python_listings` contains all Python functions and classes that are listed in the "List of Python Listings" at the end of the MDS book. These are functions that are intended for re-use. Everything else can be found in the folder `code`.
 
