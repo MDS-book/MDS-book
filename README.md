@@ -1,5 +1,6 @@
 # MDS-book
-This is the main repository for supplementary material (such as Python scripts or figures) for the MDS book.
+This is the main repository for supplementary material (such as Python scripts or figures) for the MDS book 
+(Stefan Sandfeld: "Materials Data Science", Springer, 2024, DOI 10.1007/978-3-031-46565-9).
 
 Content:
 - The folder `code` contains jupyter notebooks with all code snippets from the book -- sometimes with a few additional examples.
@@ -10,8 +11,8 @@ Content:
 
 
 ## Contributions
-The following people contributed to the repository:
-
+I am grateful to the following people for additionally contributing to the repository:
+- Sebastien Bompas (s.bompas@fz-juelich.de) created the initial version of the code for the GAN in section 19.5.
 
 <!-- 
 
