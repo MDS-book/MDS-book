@@ -26,11 +26,11 @@ def backward_pass(W, B, X1, X2, Y):
     a1, a2, y1, y2, a3 = forward_pass(W, B, X1, X2)
 
     dJdb1 = -(Y - a3) * w5 * y1 * (1 - y1)
-    dJdw1 = -(Y - a3) * w5 * y1 * (1 - y1) * X1  # or: dJdw1 = dJdb1 * X1
-    dJdw2 = -(Y - a3) * w5 * y1 * (1 - y1) * X2  # or: dJdw2 = dJdb1 * X2
+    dJdw1 = dJdb1 * X1
+    dJdw2 = dJdb1 * X2
     dJdb2 = -(Y - a3) * w6 * y2 * (1 - y2)
-    dJdw3 = -(Y - a3) * w6 * y2 * (1 - y1) * X1  # or: dJdw3 = dJdb2 * X1
-    dJdw4 = -(Y - a3) * w6 * y2 * (1 - y1) * X2  # or: dJdw4 = dJdb2 * X2
+    dJdw3 = dJdb2 * X1
+    dJdw4 = dJdb2 * X2
     dJdb3 = -(Y - a3)
     dJdw5 = -(Y - a3) * y1
     dJdw6 = -(Y - a3) * y2
