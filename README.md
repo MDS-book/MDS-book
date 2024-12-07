@@ -13,6 +13,8 @@ Content:
 ## Contributions
 I am grateful to the following people for additionally contributing to the repository:
 - Sebastien Bompas (s.bompas@fz-juelich.de) created the initial version of the code for the GAN in section 19.5.
+- Tarek Iraki (t.iraki@fz-juelich.de) contributed to the deep learning example, section 18.8
+- Aytekin Demirci (a.demirci@fz-juelich.de) helped with testing the code, e.g., through teaching ML/DL tutorials at the RWTH Aachen University.
 
 <!-- 
 
